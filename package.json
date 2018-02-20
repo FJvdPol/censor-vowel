@@ -1,0 +1,73 @@
+{
+  "name": "vowel",
+  "description": "This is a assignment to learn how to write package.json files. The index.js file was given by our lecturers via https://github.com/cmda-be/course-17-18/blob/master/week-2.md . The package.json file was written after an example by Jon Schlinkert's 'repeat-string' package.json via https://github.com/jonschlinkert/repeat-string/blob/master/package.json",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FJvdPol/vowel",
+  "author": "Folkert-Jan van der Pol (http://github.com/FJvdPol)",
+  "contributors": [
+    "Titus <tituswormer@gmail.com> (wooorm.com)"
+  ],
+  "repository": "jonschlinkert/repeat-string",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/repeat-string/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "ansi-cyan": "^0.1.1",
+    "benchmarked": "^0.2.5",
+    "gulp-format-md": "^0.1.11",
+    "isobject": "^2.1.0",
+    "mocha": "^3.1.2",
+    "repeating": "^3.0.0",
+    "text-table": "^0.2.0",
+    "yargs-parser": "^4.0.2"
+  },
+  "keywords": [
+    "fast",
+    "fastest",
+    "fill",
+    "left",
+    "left-pad",
+    "multiple",
+    "pad",
+    "padding",
+    "repeat",
+    "repeating",
+    "repetition",
+    "right",
+    "right-pad",
+    "string",
+    "times"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "repeat-element"
+      ]
+    },
+    "helpers": [
+      "./benchmark/helper.js"
+    ],
+    "reflinks": [
+      "verb"
+    ]
+  }
+}
