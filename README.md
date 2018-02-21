@@ -17,6 +17,7 @@ npm install censor-vowel
 
 Where the value is meant to be a string, and the character is meant to be a string containing a character to replace the vowels in the given value with.
 </br>
+</br>
 
 
 ## Usage
@@ -57,6 +58,7 @@ censorVowel.grawlix("SlightlyLongerVowel", "&X!3@*"); // => "&X!3@*&X!3@*&X!3@*&
 
 ## License
 [MIT](LICENSE.md) © [Folkert-Jan van der Pol](https://github.com/FJvdPol)
+</br>
 </br>
 
 
