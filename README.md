@@ -1,5 +1,6 @@
 # censor-vowel
 v 1.0.0
+
 Replaces the vowels in a string with a provided character as string or default character.
 
 ## Installation
@@ -8,9 +9,12 @@ Execute the following code in your terminal:
 ```
 npm install censor-vowel
 ```
+</br>
+
 ## API
 **`censorVowel(value, character)`**
 Where the value is meant to be a string, and the character is meant to be a string containing a character to replace the vowels in the given value with.
+</br>
 
 ## Usage
 If you want to use vowel in one of your files within this directory you need to include it in the top of your js file.
@@ -27,9 +31,7 @@ censor-vowel comes with a few methods:
 * inner
 * grawlix
 
-### Methods Usage
-
-#### Inner
+#### Usage Inner
 ```js
 var censorVowel = require("censor-vowel")
 
@@ -37,7 +39,7 @@ censorVowel.inner("Vowel") // => "V****l" (default)
 censorVowel.inner("Vowel", "%") // => "V&&&&l"
 ```
 
-#### Grawlix
+#### Usage Grawlix
 Grawlix works a little different. Instead of giving it a character to replace vowels or the string with, you give it a pattern to replace the characters.
 Once the pattern (in this example 6 characters long) has replaced the first 6 characters it will repeat te pattern to replace the leftover characters.
 TL;DR: grawlix replaces an entire string with a pattern provided as string.
@@ -47,9 +49,11 @@ var censorVowel = require("censor-vowel")
 censorVowel.grawlix("Vowel"); // => "@#$%!" (default)
 censorVowel.grawlix("SlightlyLongerVowel", "&X!3@*"); // => "&X!3@*&X!3@*&X!3@*&"
 ```
+</br>
 
 ## License
 [MIT](LICENSE.md) © [Folkert-Jan van der Pol](https://github.com/FJvdPol)
+</br>
 
 ## Special Thanks
 This readme was written after using the [README.md](https://github.com/wooorm/ccount#readme) from [Titus Wormer](https://github.com/wooorm) as an example.
