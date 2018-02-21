@@ -11,10 +11,13 @@ npm install censor-vowel
 ```
 </br>
 
+
 ## API
-**`censorVowel(value, character)`**
+### **`censorVowel(value, character)`**
+
 Where the value is meant to be a string, and the character is meant to be a string containing a character to replace the vowels in the given value with.
 </br>
+
 
 ## Usage
 If you want to use vowel in one of your files within this directory you need to include it in the top of your js file.
@@ -51,9 +54,11 @@ censorVowel.grawlix("SlightlyLongerVowel", "&X!3@*"); // => "&X!3@*&X!3@*&X!3@*&
 ```
 </br>
 
+
 ## License
 [MIT](LICENSE.md) © [Folkert-Jan van der Pol](https://github.com/FJvdPol)
 </br>
+
 
 ## Special Thanks
 This readme was written after using the [README.md](https://github.com/wooorm/ccount#readme) from [Titus Wormer](https://github.com/wooorm) as an example.
